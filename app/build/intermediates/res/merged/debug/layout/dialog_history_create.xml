@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextWhite"
+        android:text="@string/dialog_content_card_id"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etDialogCardID"
+        android:ems="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_dialog_edittext"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:hint="@string/dialog_hint_card"
+        android:textColorHint="@color/colorEditTextHintClear"
+        android:textColor="@color/colorTextWhite"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:id="@+id/llTool1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvToolbarTitle"
+                android:textSize="36sp"
+                android:textColor="@color/colorTextWhite"
+                android:layout_marginTop="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IPC752"/>
+
+            <TextView
+                android:id="@+id/tvToolbarDesc"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorTextWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test en cours"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTool2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/iconlike_margin_limit">
+
+                <ImageView
+                    android:id="@+id/toolIconRefresh"
+                    android:layout_width="@dimen/iconlike_size"
+                    android:layout_height="@dimen/iconlike_size"
+                    android:src="@drawable/ic_refresh"/>
+
+                <ProgressBar
+                    android:id="@+id/toolProgressRefresh"
+                    android:layout_width="@dimen/iconlike_size"
+                    android:layout_height="@dimen/iconlike_size" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/toolIconQuit"
+                android:layout_width="@dimen/iconlike_size"
+                android:layout_height="@dimen/iconlike_size"
+                android:layout_marginRight="@dimen/iconlike_margin_limit"
+                android:src="@drawable/ic_logout"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/selector_menu_icon">
+
+                <ImageView
+                    android:id="@+id/toolIconEdit"
+                    android:layout_width="@dimen/iconlike_size"
+                    android:layout_height="@dimen/iconlike_size"
+                    android:src="@drawable/ic_edit"/>
+
+                <ImageView
+                    android:id="@+id/toolIconEndEdit"
+                    android:layout_width="@dimen/iconlike_size"
+                    android:layout_height="@dimen/iconlike_size"
+                    android:src="@drawable/ic_no_edit"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressTest"
+        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progress_green"
+        android:layout_marginRight="16dp"
+        android:layout_height="4dp"
+        android:indeterminate="false" />
+
+</LinearLayout>

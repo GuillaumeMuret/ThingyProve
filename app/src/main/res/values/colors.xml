@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Interface colors - spec material design -->
+    <color name="colorPrimary">#333F50</color>
+    <color name="colorPrimaryDark">#222A35</color>
+    <color name="colorAccent">#9EA7B4</color>
+
+    <!-- Text colors -->
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextError">#FD5F6E</color>
+
+    <!-- Circle colors -->
+    <color name="colorCircleValid">#14E62D</color>
+    <color name="colorCircleError">#EF0319</color>
+    <color name="colorCircleNew">#00B050</color>
+    <color name="colorCircleNewPressed">#027436</color>
+    <color name="colorCircleNewRipple">#12d66b</color>
+    <color name="colorCircleStop">#EF0319</color>
+    <color name="colorCircleStopPressed">#b60818</color>
+    <color name="colorCircleStopRipple">#ec3243</color>
+    <color name="colorCircleSave">#004cb0</color>
+    <color name="colorCircleSavePressed">#022e74</color>
+    <color name="colorCircleSaveRipple">#1264d6</color>
+    <color name="colorCirclePending">#677587</color>
+    <color name="colorCircleSkip">#f1934c</color>
+    <color name="colorCirclePlay">#14E62D</color>
+    <color name="colorCircleValidInvalid">#000000</color>
+    <color name="colorCircleIdle">#747474</color>
+    <color name="colorCircleIdlePressed">#535353</color>
+    <color name="colorCircleIdleRipple">#7c7c7c</color>
+
+    <!-- Widget colors -->
+    <color name="colorEditTextBackground">#FFFFFF</color>
+    <color name="colorEditTextHint">@color/colorPrimary</color>
+    <color name="colorEditTextHintClear">#677587</color>
+    <color name="colorButtonBackground">@color/colorPrimary</color>
+    <color name="colorButtonBackgroundPressed">@color/colorPrimaryDark</color>
+    <color name="colorMenuBackgroundPressed">#d5000000</color>
+    <color name="colorButtonBorder">#FFFFFF</color>
+    <color name="colorButtonText">#FFFFFF</color>
+
+    <!-- Item colors -->
+    <color name="listClearColor">#677587</color>
+
+    <!-- List -->
+    <color name="colorHeaderPressed">#aaadb4</color>
+    <color name="colorBackgroundPressed">#28ffffff</color>
+
+
+</resources>

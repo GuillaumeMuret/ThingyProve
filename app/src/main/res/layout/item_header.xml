@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout">
+
+                <ImageView android:id="@+id/arrow_expand_imageview"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_arrow"/>
+
+                <View
+                    android:id="@+id/viewGenericCircle"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_error" />
+
+                <ImageView
+                    android:id="@+id/imgGenericIco"
+                    android:layout_centerInParent="true"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_play" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvGenericHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selector_header_text"
+
+            android:padding="15dp"
+
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Entrées analogiques"/>
+
+
+</LinearLayout>

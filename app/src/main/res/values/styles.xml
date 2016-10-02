@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Action bar style-->
+        <item name="android:actionBarSize">48dp</item>
+        <item name="actionBarSize">48dp</item>
+        <item name="android:windowTitleSize">58dip</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:height">@dimen/bar_height</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="height">@dimen/bar_height</item>
+    </style>
+
+    <!-- Fullscreen application theme. -->
+    <style name="AppThemeFullScreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--
+        All dialogs will default to Theme.DARK with this set to true.
+    -->
+        <item name="md_dark_theme">true</item>
+
+        <!--
+            This overrides the default dark or light dialog background color.
+            Note that if you use a dark color here, you should set md_dark_theme to
+            true so text and selectors look visible
+        -->
+        <item name="md_background_color">@color/colorPrimary</item>
+
+        <!--
+            By default, the title text color is derived from the
+            ?android:textColorPrimary system attribute.
+        -->
+        <item name="md_title_color">@color/colorTextWhite</item>
+
+        <!--
+            By default, the content text color is derived from the
+            ?android:textColorSecondary system attribute.
+        -->
+        <item name="md_content_color">@color/colorTextWhite</item>
+
+        <!--
+            By default, the link color is derived from the colorAccent attribute
+            of AppCompat or android:colorAccent attribute of the Material theme.
+        -->
+        <item name="md_link_color">@color/colorAccent</item>
+
+        <!--
+            Dialog Buttons
+        -->
+        <item name="md_positive_color">@color/colorAccent</item>
+        <item name="md_neutral_color">@color/colorAccent</item>
+        <item name="md_negative_color">@color/colorAccent</item>
+
+    </style>
+
+</resources>

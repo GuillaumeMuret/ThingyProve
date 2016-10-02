@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/circle_pending.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/circle_pending.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/arrow_right.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/arrow_right.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/selector_button_login.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/selector_button_login.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_item_selected.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_item_selected.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/shape_login.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/shape_login.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_btn_selected.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_btn_selected.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/circle_valid.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/circle_valid.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/circle_save.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/circle_save.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_btn_selected_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_arrow.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_arrow.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_arrow_left.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_arrow_left.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_no_edit.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_no_edit.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_transparent.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_transparent.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/progress_green.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/progress_green.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_refresh.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_refresh.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_stats.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_stats.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/shape_login_button.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/shape_login_button.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/arrow_down_selected.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/arrow_down_selected.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_delete.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_delete.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_edit.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_edit.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_escape.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_escape.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_selector.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_selector.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/selector_menu_icon.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/selector_menu_icon.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_btn_selector.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_btn_selector.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/circle_error.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/circle_error.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_skip.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_skip.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/arrow_down.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/arrow_down.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_btn_selector_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/selector_arrow_left.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/selector_arrow_left.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/selector_arrow_down.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/selector_arrow_down.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_selector_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_selector_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_logout.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_logout.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/shape_dialog_edittext.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/shape_dialog_edittext.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/arrow_right_selected.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/arrow_right_selected.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/shape_login_button_pressed.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/shape_login_button_pressed.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/shape_background.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/shape_background.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/circle_menu_pressed.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/circle_menu_pressed.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_valid.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_valid.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/circle_skip.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/circle_skip.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/md_item_selected_dark.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/drawable/md_item_selected_dark.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/degrade_splash.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/degrade_splash.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/selector_header_text.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/selector_header_text.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_search.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_search.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/selector_arrow_right.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/selector_arrow_right.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_pending.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_pending.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/ic_arrow_left_pressed.png",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/ic_arrow_left_pressed.png"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/drawable/selector_double_line.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/drawable/selector_double_line.xml"
+    }
+]

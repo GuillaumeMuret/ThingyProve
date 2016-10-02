@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/menu/menu_test_done.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/menu/menu_test_done.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/menu/menu_empty.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/menu/menu_empty.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/menu/menu_end_test.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/menu/menu_end_test.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/menu/menu_test.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/menu/menu_test.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/menu/menu_test_replay_save.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/menu/menu_test_replay_save.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/menu/menu_home.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/menu/menu_home.xml"
+    }
+]

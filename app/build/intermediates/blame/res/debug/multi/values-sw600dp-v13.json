@@ -1,0 +1,182 @@
+[
+    {
+        "outputFile": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 37,
+                    "endOffset": 88
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/values-sw600dp/screen.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 37,
+                        "endOffset": 88
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 93,
+                    "endColumn": 41,
+                    "endOffset": 130
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 135,
+                    "endColumn": 68,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 69,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 73,
+                    "endOffset": 343
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 348,
+                    "endColumn": 75,
+                    "endOffset": 419
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 424,
+                    "endColumn": 58,
+                    "endOffset": 478
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 483,
+                    "endColumn": 70,
+                    "endOffset": 549
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 554,
+                    "endColumn": 67,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endColumn": 57,
+                    "endOffset": 675
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/values-sw600dp/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 55,
+                    "endOffset": 731
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/values-sw600dp/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 736,
+                    "endColumn": 41,
+                    "endOffset": 773
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/values-sw600dp/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 778,
+                    "endColumn": 46,
+                    "endOffset": 820
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/values-sw600dp/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 825,
+                    "endColumn": 54,
+                    "endOffset": 875
+                },
+                "from": {
+                    "file": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml"
+                }
+            }
+        ]
+    }
+]

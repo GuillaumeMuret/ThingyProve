@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Données de test
+       pour la méthode checkOperatorFormat(String operatorID) : Boolean
+       de la classe XXXXX.
+
+       Organisation :
+           - String correspondant à l'identifiant ;
+
+  -->
+
+        <string
+            name="operatorIDDT0"
+            >A7</string>
+
+       <string
+           name="operatorIDDT1"
+           >7A</string>
+
+       <string
+           name="operatorIDDT2"
+           >B-</string>
+
+       <string
+           name="operatorIDDT3"
+           >-B</string>
+
+
+       <string
+           name="operatorIDDT4"
+           >B\'</string>
+
+       <string
+           name="operatorIDDT5"
+           >\'B</string>
+
+       <string
+           name="operatorIDDT6"
+           >ÈB</string>
+
+       <string
+           name="operatorIDDT7"
+           >BÄ</string>
+
+	<string
+        name="operatorIDDT8"
+        >cB</string>
+
+       <string
+           name="operatorIDDT9"
+           >Bc</string>
+
+       <string
+           name="operatorIDDT10"
+           >D!</string>
+
+
+	<string
+        name="operatorIDDT11"
+        >\'D</string>
+
+       <string
+           name="operatorIDDT12"
+           > B</string>
+
+       <string
+           name="operatorIDDT13"
+           >B </string>
+
+       <string
+           name="operatorIDDT14"
+           ></string>
+
+       <string
+           name="operatorIDDT15"
+           >CDE</string>
+
+       <string
+           name="operatorIDDT16"
+           >C</string>
+
+    <!-- ici le format est valide
+
+	-->
+
+       <string
+           name="operatorIDDT17"
+           >AA</string>
+
+       <string
+           name="operatorIDDT18"
+           >ZZ</string>
+
+       <string
+           name="operatorIDDT19"
+           >CD</string>
+
+
+    <!-- Données de test
+     pour la méthode checkCardFormat(String cardID) : Boolean
+     de la classe XXXXX.
+
+     Organisation :
+         - String correspondant au numéro ;
+-->
+
+        <string
+            name="cardIDDT0"
+            >CB3211161050</string>
+
+       <string
+           name="cardIDDT1"
+           >CB0010160949</string>
+
+       <string
+           name="cardIDDT2"
+           >CD1000160848</string>
+
+       <string
+           name="cardIDDT3"
+           >EF1113161151</string>
+
+
+       <string
+           name="cardIDDT4"
+           >GH2405162432</string>
+
+       <string
+           name="cardIDDT5"
+           >IJ0804160960</string>
+
+       <string
+           name="cardIDDT6"
+           >KL3111161638</string>
+
+       <string
+           name="cardIDDT7"
+           >B!2804161138</string>
+
+	<string
+        name="cardIDDT8"
+        >éI2703161412</string>
+
+       <string
+           name="cardIDDT9"
+           > </string>
+
+       <string
+           name="cardIDDT10"
+           >DBC1101608A3</string>
+
+
+	<string
+        name="cardIDDT11"
+        >DBC2004160912</string>
+
+       <string
+           name="cardIDDT12"
+           >BC21042161517</string>
+
+       <string
+           name="cardIDDT13"
+           >D2310151615</string>
+
+       <string
+           name="cardIDDT14"
+           >BB107161513</string>
+
+    <!-- ici le format est valide
+
+	-->
+	<string
+        name="cardIDDT15"
+        >AA0212161803</string>
+
+       <string
+           name="cardIDDT16"
+           >ZZ0301161704</string>
+
+       <string
+           name="cardIDDT17"
+           >AB0102161605</string>
+
+       <string
+           name="cardIDDT18"
+           >BA3103161406</string>
+
+       <string
+           name="cardIDDT19"
+           >CD0401161407</string>
+
+       <string
+           name="cardIDDT20"
+           >DC0512161308</string>
+
+       <string
+           name="cardIDDT21"
+           >EF0604160009</string>
+
+       <string
+           name="cardIDDT22"
+           >FE0705162310</string>
+
+       <string
+           name="cardIDDT23"
+           >GH0806161200</string>
+
+       <string
+           name="cardIDDT24"
+           >HG0907161159</string>
+
+	<string
+        name="cardIDDT25"
+        >CL3108161206</string>
+
+       <string
+           name="cardIDDT26"
+           >CA3107161206</string>
+
+       <string
+           name="cardIDDT27"
+           >CF2507161008</string>v
+
+
+</resources>

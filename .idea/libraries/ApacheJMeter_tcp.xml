@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ApacheJMeter_tcp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/lib/ApacheJMeter_tcp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

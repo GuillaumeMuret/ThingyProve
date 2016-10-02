@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_dialog_input.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_dialog_input.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/layout_toolbar_two.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/layout_toolbar_two.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/item_header.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/item_header.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_dialog_list.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_dialog_list.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_listitem_singlechoice.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_stub_titleframe.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_stub_titleframe.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_dialog_progress_indeterminate.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_dialog_progress_indeterminate.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_stub_titleframe_lesspadding.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_stub_titleframe_lesspadding.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/activity_stats.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/activity_stats.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/dialog_test_create.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/dialog_test_create.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_dialog_progress_indeterminate_horizontal.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_dialog_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/activity_test.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_listitem_multichoice.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_listitem.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_listitem.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_dialog_basic.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_dialog_basic.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/layout_toolbar_card_history.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/layout_toolbar_card_history.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/activity_card_history.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/activity_card_history.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/layout_toolbar_progress.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/layout_toolbar_progress.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/item_doubleline.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/item_doubleline.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_dialog_custom.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_dialog_custom.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_stub_actionbuttons.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_stub_actionbuttons.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/toolbar_main.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/toolbar_main.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/dialog_history_create.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout/dialog_history_create.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout/md_dialog_progress.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.8/res/layout/md_dialog_progress.xml"
+    }
+]

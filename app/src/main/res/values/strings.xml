@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Android -->
+    <string name="app_name">Thingy Prove</string>
+
+    <!-- Menu titles -->
+    <string name="menu_stats">Statistiques</string>
+    <string name="menu_search">Rechercher une carte</string>
+    <string name="menu_logout">Déconnexion</string>
+    <string name="menu_exit">Quitter l\'application</string>
+    <string name="menu_test_edit">Editer les tests</string>
+    <string name="menu_test_replay">Recommencer les tests</string>
+    <string name="menu_test_no_edit">Fermer le mode d\'édition des tests</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_name">Thingy</string>
+    <string name="splash_credits">by prøve</string>
+
+    <!-- Login Screen -->
+    <string name="login_name">Thingy</string>
+    <string name="login_instructions">login</string>
+    <string name="login_hint_username">username</string>
+    <string name="login_hint_password">password</string>
+    <string name="login_button">CONNEXION</string>
+
+    <!-- Stats Screen -->
+    <string name="stats_title">Statistiques</string>
+    <string name="stats_subtitle">Résumé des tests effectués</string>
+    <string name="stats_pie_description">Répartition des cartes testées</string>
+    <string name="stats_pie_valid">Répartition des cartes testées</string>
+    <string name="stats_pie_refused">Répartition des cartes testées</string>
+    <string name="stats_pie_title">Tests des cartes</string>
+
+    <!-- History Screen -->
+    <string name="history_subtitle_wait">Recherche de la carte...</string>
+    <string name="history_subtitle_error">Carte introuvable...</string>
+
+    <!-- Test Screen -->
+    <string name="test_status_waiting">Test en attente</string>
+    <string name="test_status_saving">Sauvegarde des tests</string>
+    <string name="test_status_edition">Mode d\'édition des tests</string>
+    <string name="test_status_done">Test terminé</string>
+    <plurals name="test_status_done_errors">
+        <item quantity="one">Test terminé (%d erreur)</item>
+        <item quantity="other">Test terminé (%d erreurs)</item>
+    </plurals>
+    <string name="test_status_running">Test en cours (%1$s%%)</string>
+
+    <!-- History Adapter -->
+    <string name="recenthistory_name">%1$s - %2$s</string>
+    <string name="recenthistory_details">%1$s - %2$d min - %3$s</string>
+    <string name="recenthistory_text_succed">Test réussi</string>
+    <string name="recenthistory_text_failed">Test échoué</string>
+
+    <string name="cardhistory_headeritem">%1$s - %2$s</string>
+    <string name="cardhistory_details">%1$d min - %2$s</string>
+    <string name="cardhistory_text_valid">Test validé</string>
+    <string name="cardhistory_text_invalid">Test invalidé</string>
+    <string name="cardhistory_text_no_detail">No details...</string>
+    <string name="cardhistory_subtitle_details">Test n°%1$d, effectué le %2$s, par %3$s</string>
+    <string name="cardhistory_subtitle_before_details">Création de la carte : %1s</string>
+
+
+    <!-- Dialogs -->
+    <string name="dialog_title_new_test">Nouveau test</string>
+    <string name="dialog_check_new_test">Créer une nouvelle carte</string>
+
+    <string name="dialog_title_history">Historique</string>
+    <string name="dialog_content_history">Entrez le numéro d\'identification de la carte :</string>
+
+    <string name="dialog_hint_card">Ex : XXJJMMAAHHMM</string>
+    <string name="dialog_content_card_id">Entrez le numéro d\'identification de la carte :</string>
+
+
+    <string name="dialog_title_error">Erreur</string>
+    <string name="dialog_error_format_content">Le format de la carte n\'est pas valide…</string>
+    <string name="dialog_error_id_content">Impossible de trouver la carte dans la base de données.</string>
+
+
+    <string name="dialog_error_network">Connexion interrompue…\nVérifiez les branchements.</string>
+
+    <string name="dialog_test_interrupt_title">Arrêter</string>
+    <string name="dialog_test_interrupt_content">Vous allez interrompre le test qui est en cours. Les résultats de ce test ne seront pas sauvegardés.</string>
+
+
+    <string name="dialog_validate">Valider</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_close">Fermer</string>
+    <string name="dialog_quitter">Quitter</string>
+    <string name="dialog_reconnecter">Reconnecter</string>
+
+    <string name="dialog_confirm">Confirmer</string>
+    <string name="dialog_progress_new_test">Opération en cours, veuillez patienter …</string>
+    <string name="dialog_splash_error_title">Erreur connexion</string>
+    <string name="dialog_splash_error_content">Impossible de se connecter.\nVérifiez les branchements.</string>
+    <string name="dialog_home_disconnect_title">Se déconnecter</string>
+    <string name="dialog_home_disconnect_content">Vous allez être déconnectés.\nContinuer ?</string>
+    <string name="dialog_home_quit_title">Quitter</string>
+    <string name="dialog_home_quit_content">Vous allez quitter l\'application.\nContinuer ?</string>
+
+    <string name="dialog_test_error_title">Attention</string>
+    <string name="dialog_test_error_content">Vous devez valider ou invalider les résultats pour continuer.</string>
+
+
+    <string name="dialog_test_quit_title">Quitter</string>
+    <string name="dialog_test_quit_content">Vous allez revenir au menu.\nContinuer ?</string>
+    <string name="dialog_test_quit_save_content">Sauvegarde en cours.</string>
+
+    <string name="dialog_test_edition_error_title">Erreur edition</string>
+    <string name="dialog_test_edition_error_content">Impossible d\'enregistrer la configuration, vous devez effectuer les tests </string>
+
+    <string name="dialog_test_restart_title">Recommencer</string>
+    <string name="dialog_test_restart_content">Voulez-vous recommencer un test sur cette carte ?</string>
+
+    <!-- Date / calendar -->
+    <string name="date_today">Aujourd\'hui</string>
+    <string name="date_yesterday">Hier</string>
+
+</resources>

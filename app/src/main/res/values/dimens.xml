@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="listitem_margin">16dp</dimen>
+
+    <dimen name="bar_height">48dp</dimen>
+
+    <dimen name="iconlike_size">32dp</dimen>
+    <dimen name="iconlike_margin_limit">12dp</dimen>
+</resources>

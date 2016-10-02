@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.3" jmeter="2.8.20130705">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Plan de test" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Variables pré-définies" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Variables pré-définies pour les tests du serveur Thingy (Thingy C)" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="owner" elementType="Argument">
+            <stringProp name="Argument.name">owner</stringProp>
+            <stringProp name="Argument.value">owner</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Pocesseur de la requête qui va suivre</stringProp>
+          </elementProp>
+          <elementProp name="numOwner" elementType="Argument">
+            <stringProp name="Argument.name">numOwner</stringProp>
+            <stringProp name="Argument.value">numOwner</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">Numéro associé à numOwner</stringProp>
+          </elementProp>
+          <elementProp name="process" elementType="Argument">
+            <stringProp name="Argument.name">process</stringProp>
+            <stringProp name="Argument.value">process</stringProp>
+            <stringProp name="Argument.desc">Demande à envoyer</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="params" elementType="Argument">
+            <stringProp name="Argument.name">params</stringProp>
+            <stringProp name="Argument.value">params</stringProp>
+            <stringProp name="Argument.desc">Paramètres nécessaires à la demande</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="state" elementType="Argument">
+            <stringProp name="Argument.name">state</stringProp>
+            <stringProp name="Argument.value">state</stringProp>
+            <stringProp name="Argument.desc">état du parametre de la reponse</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="history" elementType="Argument">
+            <stringProp name="Argument.name">history</stringProp>
+            <stringProp name="Argument.value">history</stringProp>
+            <stringProp name="Argument.desc">est suivi de l&apos;historique </stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+        <stringProp name="TestPlan.comments">Variables du protocole de communication</stringProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Groupe d&apos;unités" enabled="true">
+        <stringProp name="TestPlan.comments">Groupe d&apos;unités de tests nominaux du serveur</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Contrôleur Boucle" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1462025463000</longProp>
+        <longProp name="ThreadGroup.end_time">1462025463000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Contrôleur Simple" enabled="true">
+          <stringProp name="TestPlan.comments">Contrôleur Simple - Tests nominaux des commandes</stringProp>
+        </GenericController>
+        <hashTree>
+          <ConfigTestElement guiclass="TCPConfigGui" testclass="ConfigTestElement" testname="Paramètres TCP par défaut" enabled="true">
+            <stringProp name="TestPlan.comments">Connexion au serveur Thingy C</stringProp>
+            <stringProp name="TCPSampler.server">192.168.42.1</stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port">50000</stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout">4000</stringProp>
+            <stringProp name="TCPSampler.request"></stringProp>
+            <stringProp name="TCPSampler.classname">fr.prove.thingy.jmeter.TCPClientThingyImpl</stringProp>
+            <stringProp name="TCPSampler.ctimeout">3000</stringProp>
+          </ConfigTestElement>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Compteur de temps fixe" enabled="true">
+            <stringProp name="ConstantTimer.delay">500</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Arbre de résultats" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>true</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande Brain si état de marche" enabled="true">
+            <stringProp name="TestPlan.comments">Demande au Brain si Thingy Commande est en état de fonctionner (contexte : Thingy est en état de fonctionner)</stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;Brain&quot;,&quot;${numOwner}&quot;:1,&quot;${process}&quot;:&quot;askReady&quot;,&quot;${params}&quot;:{ }}
+
+
+</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="279220059">{&quot;${process}&quot;:&quot;setReady&quot;,&quot;${params}&quot;:{&quot;${state}&quot;:0}}
+</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de vérification de l&apos;identifiant d&apos;un opérateur Valide" enabled="true">
+            <stringProp name="TestPlan.comments">Vérifie que le nom et le mot de passe se trouve dans la base de donnée. </stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot; : &quot;TesterGuard&quot;,&quot;${numOwner}&quot; : 5,&quot;${process}&quot; : &quot;askCheckLogTester&quot;,&quot;${params}&quot; : {&quot;operatorID&quot; : &quot;LG&quot;,&quot;operatorPass&quot; : &quot;lg112233&quot;}}</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="257180830">{&quot;${process}&quot;:&quot;setOperatorInfo&quot;,&quot;${params}&quot;:{&quot;infoTester&quot;:{&quot;name&quot;:&quot;Laura Geslin&quot;}}}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de vérification de l&apos;identifiant d&apos;un opérateur invalide" enabled="true">
+            <stringProp name="TestPlan.comments">Vérifie que le nom et le mot de passe ne se trouve pas dans la base de donnée. </stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot; : &quot;TesterGuard&quot;,&quot;${numOwner}&quot; : 5,&quot;${process}&quot; : &quot;askCheckLogTester&quot;,&quot;${params}&quot; : {&quot;operatorID&quot; : &quot;AZ&quot;,&quot;operatorPass&quot; : &quot;lg112233&quot;}}</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="416594019">{&quot;${process}&quot;:&quot;setOperatorAccess&quot;,&quot;${params}&quot;:{&quot;${state}&quot;:1}}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande Historique" enabled="true">
+            <stringProp name="TestPlan.comments">Demande l&apos;historiques des dernières cartes testées</stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;Historian&quot;,&quot;${numOwner}&quot;:&quot;2&quot;,&quot;${process}&quot;:&quot;askRecentHistory&quot;,&quot;${params}&quot;:{}}
+</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="166464420">{&quot;process&quot;:&quot;setRecentHistory&quot;,&quot;params&quot;:{&quot;history&quot;:[{&quot;cardType&quot;:&quot;IPX800V4&quot;,&quot;date&quot;:&quot;2017-03-08 15:05:00&quot;,&quot;timeMin&quot;:1,&quot;operatorID&quot;:&quot;FL&quot;,&quot;cardID&quot;:&quot;FL0308171505&quot;,&quot;validation&quot;:1},{&quot;cardType&quot;:&quot;IPX800V4&quot;,&quot;date&quot;:&quot;2016-01-02 16:45:00&quot;,&quot;timeMin&quot;:1,&quot;operatorID&quot;:&quot;FL&quot;,&quot;cardID&quot;:&quot;FL0202161645&quot;,&quot;validation&quot;:0},{&quot;cardType&quot;:&quot;IPX800V4&quot;,&quot;date&quot;:&quot;2016-10-03 01:28:34&quot;,&quot;timeMin&quot;:1,&quot;operatorID&quot;:&quot;FL&quot;,&quot;cardID&quot;:&quot;FL0905150034&quot;,&quot;validation&quot;:1},{&quot;cardType&quot;:&quot;IPX800V4&quot;,&quot;date&quot;:&quot;2016-10-03 01:28:34&quot;,&quot;timeMin&quot;:1,&quot;operatorID&quot;:&quot;LG&quot;,&quot;cardID&quot;:&quot;LG1903160128&quot;,&quot;validation&quot;:0},{&quot;cardType&quot;:&quot;IPX800V4&quot;,&quot;date&quot;:&quot;2015-05-09 00:16:26&quot;,&quot;timeMin&quot;:1,&quot;operatorID&quot;:&quot;FL&quot;,&quot;cardID&quot;:&quot;FL0905150016&quot;,&quot;validation&quot;:1}]}}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de la liste des tests disponibles" enabled="true">
+            <stringProp name="TestPlan.comments">Demande à Thingy C quels sont les tests disponibles</stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;ScholarTest&quot;,&quot;${numOwner}&quot;:4,&quot;${process}&quot;:&quot;askNominalListTest&quot;,&quot;${params}&quot;:{ }}</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="1787215456">{&quot;${process}&quot;:&quot;setNominalListTests&quot;,&quot;${params}&quot;:{&quot;list&quot;:[{&quot;name&quot;:&quot;Tests de communication&quot;,&quot;IDScenario&quot;:&quot;testCommunication&quot;,&quot;obligation&quot;:1,&quot;items&quot;:[{&quot;ID&quot;:&quot;Ethernet&quot;,&quot;name&quot;:&quot;Test Ethernet&quot;,&quot;description&quot;:&quot;Test communication&quot;},{&quot;ID&quot;:&quot;BusCom&quot;,&quot;name&quot;:&quot;Test Bus de communication&quot;,&quot;description&quot;:&quot;Test communication&quot;},{&quot;ID&quot;:&quot;RJ12&quot;,&quot;name&quot;:&quot;Test RJ12&quot;,&quot;description&quot;:&quot;Test communication&quot;}]},{&quot;name&quot;:&quot;Tests de mémoire&quot;,&quot;IDScenario&quot;:&quot;testMemory&quot;,&quot;obligation&quot;:1,&quot;items&quot;:[{&quot;ID&quot;:&quot;Flash&quot;,&quot;name&quot;:&quot;Test mémoire Flash&quot;,&quot;description&quot;:&quot;Test mémoire&quot;},{&quot;ID&quot;:&quot;NVRAM&quot;,&quot;name&quot;:&quot;Test mémoire NVRAM&quot;,&quot;description&quot;:&quot;Test mémoire&quot;}]},{&quot;name&quot;:&quot;Tests des relais&quot;,&quot;IDScenario&quot;:&quot;testRelay&quot;,&quot;obligation&quot;:0,&quot;items&quot;:[{&quot;ID&quot;:&quot;RLY1&quot;,&quot;name&quot;:&quot;Relais 1&quot;,&quot;description&quot;:&quot;Test relais&quot;},{&quot;ID&quot;:&quot;RLY2&quot;,&quot;name&quot;:&quot;Relais 2&quot;,&quot;description&quot;:&quot;Test relais&quot;},{&quot;ID&quot;:&quot;RLY3&quot;,&quot;name&quot;:&quot;Relais 3&quot;,&quot;description&quot;:&quot;Test relais&quot;},{&quot;ID&quot;:&quot;RLY4&quot;,&quot;name&quot;:&quot;Relais 4&quot;,&quot;description&quot;:&quot;Test relais&quot;},{&quot;ID&quot;:&quot;RLY5&quot;,&quot;name&quot;:&quot;Relais 5&quot;,&quot;description&quot;:&quot;Test relais&quot;},{&quot;ID&quot;:&quot;RLY6&quot;,&quot;name&quot;:&quot;Relais 6&quot;,&quot;description&quot;:&quot;Test relais&quot;},{&quot;ID&quot;:&quot;RLY7&quot;,&quot;name&quot;:&quot;Relais 7&quot;,&quot;description&quot;:&quot;Test relais&quot;},{&quot;ID&quot;:&quot;RLY8&quot;,&quot;name&quot;:&quot;Relais 8&quot;,&quot;description&quot;:&quot;Test relais&quot;}]},{&quot;name&quot;:&quot;Tests des entrées analogiques&quot;,&quot;IDScenario&quot;:&quot;testAnalogInput&quot;,&quot;obligation&quot;:0,&quot;items&quot;:[{&quot;ID&quot;:&quot;AI1&quot;,&quot;name&quot;:&quot;Entrée analogique 1&quot;,&quot;description&quot;:&quot;Test entrées analogiques&quot;},{&quot;ID&quot;:&quot;AI2&quot;,&quot;name&quot;:&quot;Entrée analogique 2&quot;,&quot;description&quot;:&quot;Test entrées analogiques&quot;},{&quot;ID&quot;:&quot;AI3&quot;,&quot;name&quot;:&quot;Entrée analogique 3&quot;,&quot;description&quot;:&quot;Test entrées analogiques&quot;},{&quot;ID&quot;:&quot;AI4&quot;,&quot;name&quot;:&quot;Entrée analogique 4&quot;,&quot;description&quot;:&quot;Test entrées analogiques&quot;},{&quot;ID&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;},{&quot;ID&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;},{&quot;ID&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;},{&quot;ID&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;}]},{&quot;name&quot;:&quot;Tests des entrées digitales&quot;,&quot;IDScenario&quot;:&quot;testDigitalInput&quot;,&quot;obligation&quot;:0,&quot;items&quot;:[{&quot;ID&quot;:&quot;DI1&quot;,&quot;name&quot;:&quot;Entrée digitale 1&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;},{&quot;ID&quot;:&quot;DI2&quot;,&quot;name&quot;:&quot;Entrée digitale 2&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;},{&quot;ID&quot;:&quot;DI3&quot;,&quot;name&quot;:&quot;Entrée digitale 3&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;},{&quot;ID&quot;:&quot;DI4&quot;,&quot;name&quot;:&quot;Entrée digitale 4&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;},{&quot;ID&quot;:&quot;DI5&quot;,&quot;name&quot;:&quot;Entrée digitale 5&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;},{&quot;ID&quot;:&quot;DI6&quot;,&quot;name&quot;:&quot;Entrée digitale 6&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;},{&quot;ID&quot;:&quot;DI7&quot;,&quot;name&quot;:&quot;Entrée digitale 7&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;},{&quot;ID&quot;:&quot;DI8&quot;,&quot;name&quot;:&quot;Entrée digitale 8&quot;,&quot;description&quot;:&quot;Test entrées digitales&quot;}]}]}}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande historique d&apos;une carte" enabled="true">
+            <stringProp name="TestPlan.comments">Demande l&apos;historique d&apos;une carte envoyée en paramètre.</stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;Historian&quot;,&quot;${numOwner}&quot;:2,&quot;${process}&quot;:&quot;askCardHistory&quot;,&quot;${params}&quot;:{&quot;cardID&quot;:&quot;FL0202161645&quot;}}</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="0"></stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de vérification du numéro d&apos;une carte valide" enabled="true">
+            <stringProp name="TestPlan.comments">vérifie qu&apos;une carte à déjà été testée </stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;CardGuard&quot;,&quot;${numOwner}&quot;:&quot;3&quot;,&quot;${process}&quot;:&quot;askCheckCardID&quot;,&quot;${params}&quot;:{&quot;cardID&quot;:&quot;maCarte&quot;}}
+</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-2125020146">{process:setCardExistance,params:{state:0}}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de vérification du numéro d&apos;une carte invalide" enabled="true">
+            <stringProp name="TestPlan.comments">Vérifie qu&apos;une carte n&apos;a jamais été testée</stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request"></stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion Réponse" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="970655733">{&quot;${process}&quot;:&quot;setCardExistance&quot;,&quot;${params}&quot; :{&quot;${state}&quot;: 1}}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de lancer les tests" enabled="true">
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;Tester&quot;,&quot;${numOwner}&quot;:&quot;6&quot;,&quot;${process}&quot;:&quot;RunTests&quot;,&quot;${params}&quot;:{}}</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree/>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de validation du test final" enabled="true">
+            <stringProp name="TestPlan.comments">Demande à valider le test </stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;Historian&quot;,&quot;${numOwner}&quot;:&quot;2&quot;,&quot;${process}&quot;:&quot;askValidSave&quot;,&quot;${params}&quot;:{&quot;validation&quot;:1}}</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree/>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="Requête TCP - Demande de stop du Brain" enabled="true">
+            <stringProp name="TestPlan.comments">Demande au Brain de s&apos;arrêter</stringProp>
+            <stringProp name="TCPSampler.server"></stringProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <stringProp name="TCPSampler.port"></stringProp>
+            <boolProp name="TCPSampler.nodelay">false</boolProp>
+            <stringProp name="TCPSampler.timeout"></stringProp>
+            <stringProp name="TCPSampler.request">{&quot;${owner}&quot;:&quot;Brain&quot;,&quot;${numOwner}&quot;:&quot;1&quot;,&quot;${process}&quot;:&quot;stopTC&quot;,&quot;${params}&quot;:{}}</stringProp>
+            <stringProp name="ConfigTestElement.username"></stringProp>
+            <stringProp name="ConfigTestElement.password"></stringProp>
+          </TCPSampler>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/listitem_margin"
+    android:paddingRight="@dimen/listitem_margin"
+    android:id="@+id/layBackItem"
+    android:clickable="true"
+    android:background="@drawable/selector_double_line"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/relativeLayout">
+
+        <View
+            android:id="@+id/viewGenericCircle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_error" />
+
+        <ImageView
+            android:id="@+id/imgGenericIco"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_delete" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/relativeLayout"
+        android:layout_toEndOf="@+id/relativeLayout"
+        android:layout_marginStart="17dp">
+
+        <TextView
+            android:id="@+id/tvGenericFirstLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextWhite"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="IPX800V4 - 12345"/>
+
+        <TextView
+            android:id="@+id/tvGenericSecondLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextWhite"
+            android:text="IPX800V4 - 12345"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewGenericDivider"
+        android:layout_marginTop="36dp"
+        android:layout_below="@id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/listClearColor" />
+
+</RelativeLayout>

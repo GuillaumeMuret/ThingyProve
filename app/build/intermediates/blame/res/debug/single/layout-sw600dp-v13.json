@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_splash.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout-sw600dp/activity_splash.xml"
+    },
+    {
+        "merged": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_login.xml",
+        "source": "/home/guillaume/AndroidStudioProjects/ThingyProve/app/src/main/res/layout-sw600dp/activity_login.xml"
+    }
+]

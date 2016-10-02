@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:id="@+id/action_stats"
+        android:title="@string/menu_stats"
+        android:icon="@drawable/ic_stats"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_search"
+        android:title="@string/menu_search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_exit"
+        android:title="@string/menu_exit"
+        android:icon="@drawable/ic_escape"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.prove.thingy"
+    android:installLocation="preferExternal">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeFullScreen">
+
+        <!-- Splash -->
+        <activity
+            android:name="fr.prove.thingy.SplashActivity"
+            android:theme="@style/AppThemeFullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login -->
+        <activity
+            android:name="fr.prove.thingy.LoginActivity"
+            android:theme="@style/AppThemeFullScreen"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:screenOrientation="behind"/>
+
+        <!-- Home / Resume -->
+        <activity
+            android:name="fr.prove.thingy.HomeActivity"
+            android:theme="@style/AppThemeFullScreen"
+            android:screenOrientation="behind"/>
+
+        <!-- Test -->
+        <activity
+            android:name="fr.prove.thingy.TestActivity"
+            android:theme="@style/AppThemeFullScreen"
+            android:screenOrientation="behind"/>
+
+        <!-- Stats -->
+        <activity
+            android:name="fr.prove.thingy.StatsActivity"
+            android:theme="@style/AppThemeFullScreen"
+            android:screenOrientation="behind"/>
+
+        <!-- History -->
+        <activity
+            android:name="fr.prove.thingy.CardHistoryActivity"
+            android:theme="@style/AppThemeFullScreen"
+            android:screenOrientation="behind"/>
+
+        <!-- Test binder Service -->
+        <service android:name=".model.BinderMan"/>
+
+    </application>
+
+</manifest>
